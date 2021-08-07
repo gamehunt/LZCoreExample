@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lzlibexample",
+  "name": "LZLibExample Mod",
+  "description": "Example mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["gamehunt aka Lizord"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
