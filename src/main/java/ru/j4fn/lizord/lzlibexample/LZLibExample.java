@@ -1,10 +1,10 @@
-package gamehunt.lzlibexample;
+package ru.j4fn.lizord.lzlibexample;
 
-import gamehunt.lzlib.util.ReflectionHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import ru.j4fn.lizord.lzlib.util.ReflectionHelper;
 
 @Mod(modid = "lzlibexample", dependencies = "required-after:lzlib")
 public class LZLibExample{

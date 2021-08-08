@@ -61,9 +61,15 @@ minecraft {
     }
 }
 
+repositories {
+    maven {
+        url "https://maven.j4fn.ru/releases"
+    }
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2855'
-    compile files('libs/lzlib-1.0.0.jar')
+    compile   'ru.j4fn.lizord:LZLib:1.0.1'
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..

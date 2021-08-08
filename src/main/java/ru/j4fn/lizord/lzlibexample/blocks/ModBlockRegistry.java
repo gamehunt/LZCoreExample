@@ -1,12 +1,12 @@
-package gamehunt.lzlibexample.blocks;
+package ru.j4fn.lizord.lzlibexample.blocks;
 
-import gamehunt.lzlib.blocks.BlockRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import ru.j4fn.lizord.lzlib.blocks.BlockRegistry;
 
 @Mod.EventBusSubscriber
 public class ModBlockRegistry{
