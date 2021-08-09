@@ -8,10 +8,10 @@ import ru.j4fn.lizord.lzlib.util.RegistryEntry;
 
 @RegistryEntry
 public class ExampleTEBlock extends AbstractBlock {
+    public final static ExampleTEBlock INSTANCE = new ExampleTEBlock();
     public ExampleTEBlock() {
         super("example_te_block", Material.GROUND);
     }
-
     @Override
     public Class<? extends AbstractTileEntity> getTileEntityClass(IBlockState s) {
         return ExampleTE.class;

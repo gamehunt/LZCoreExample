@@ -69,7 +69,7 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2855'
-    compile   'ru.j4fn.lizord:LZLib:1.0.1'
+    compile   'ru.j4fn.lizord:LZLib:1.0.2'
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..
